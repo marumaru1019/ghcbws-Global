@@ -1,6 +1,6 @@
-#給料の計算をするプログラムを作る
-#給料の計算は以下の通り
-#時給1500円で働いた時間を入力すると、給料を計算してくれるプログラムを作成してください。
-#ただし、1日の労働時間が8時間を超えた場合は、残業代として時給の1.25倍を支払うものとします。
+#Make a program to calculate salaries.
+#Calculate your salary as follows
+#Create a program that calculates your salary by entering the hours you worked at an hourly rate of 1,500 yen.
+#However, if you work more than 8 hours in a day, you shall be paid 1.25 times your hourly rate as overtime pay.
 
 def calc_salary(hour):

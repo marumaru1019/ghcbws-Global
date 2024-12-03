@@ -5,14 +5,14 @@ public class TryCopilotChat {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("基本給を入力してください（円）：");
+    System.out.println("Enter the base salary (in yen):");
     int baseSalary = scanner.nextInt();
 
-    System.out.println("残業時間を入力してください（時間）：");
+    System.out.println("Enter overtime hours (hours):");
     int overtimeHours = scanner.nextInt();
 
     int salary = calculateSalary(baseSalary, overtimeHours);
-    System.out.println("あなたの給与は" + salary + "円です。");
+    System.out.println("Your salary is" + salary + "yen.");
   }
 
   public static int calculateSalary(int baseSalary, int overtimeHours) {
